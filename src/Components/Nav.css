@@ -1,0 +1,131 @@
+*{
+    margin: 0%; padding: 0%;
+    box-sizing: border-box;
+}
+
+.navbar-header {
+    background-color: #440000;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.unorder-list {
+    display: flex;
+    width: 50%;
+    margin-right: 120px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.header-image {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: talha 3s linear infinite;
+    animation-direction: alternate;
+}
+.header-image img{
+    margin: 30px;
+    padding: 5px 0px;
+    width: 80px;
+    height: 80px;
+}
+@keyframes talha {
+    from {
+        padding-left: 50px;
+    }
+
+    to {
+        padding-right: 50px;
+    }
+}
+.unorder-list li {
+    list-style-type: none;
+}
+.unorder-list a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+.hoverline::after {
+    content: " ";
+    display: block;
+    width: 0%;                  
+    height: 2px;
+    background-color: white;
+    transition: 1s;
+
+}
+.hoverline:hover::after {
+    width: 100%;               
+    transition: 1s;
+}
+.unorder-list li a:hover {
+    color: white;
+}
+.hamburger-button{
+    padding-right: 50px;
+    color: white;
+
+}
+.hamburger-button .anchr-tag{
+    color: white;
+}
+.hamburger-button a{
+    text-decoration: none;
+}
+.offcanvas-modal{
+    margin-top: 50px;
+    /* width: 10px; */
+    border-right-width: 200px;
+}
+.mobilescreen li{
+    padding-bottom: 10px;
+}
+.mobilescreen a:hover{
+    color: orange;
+}
+.mobilescreen a{
+    color: #440000;
+}
+
+
+@media (min-width:768px) and (max-width:991.98px){
+    .unorder-list{
+        width: 70%;
+        margin-right: 20px;
+    }
+}
+@media screen and (max-width:767.98px) {
+    .unorder-list{
+        display: none;
+    }
+    @keyframes talha {
+        from {
+            padding-left: 0px;
+        }
+    
+        to {
+            padding-right: 00px;
+        }
+    }
+}
+@media screen and (max-width:575.98px) {
+    .offcanvas-modal{
+        margin-top: 50px;
+        width: 80px;
+    }
+    @keyframes talha {
+        from {
+            padding-left: 0px;
+        }
+    
+        to {
+            padding-right: 00px;
+        }
+    }
+    
+}

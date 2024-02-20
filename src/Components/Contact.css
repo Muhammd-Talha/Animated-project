@@ -1,0 +1,132 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.contact-headr {
+    background-image: url(./Images/contact-img.webp);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-component {
+    text-align: center;
+    padding: 90px;
+    background-color: #440000;
+    opacity: 0.7;
+}
+.contact-component h1{
+    color: white;
+    font-weight: 700;
+    font-size: 45px;
+}
+.icons-overview{
+    /* border: 4px solid red; */
+    background-color: #440000;
+    margin: 20px;
+    padding: 30px;
+}
+.icons-overview h1{
+    text-align: center;
+    color: wheat;
+    margin-bottom: 15px;
+}
+.icons-overview b{
+    color: orange;
+}
+.icons-overview label{
+    color: white;
+    margin-bottom: 13px;
+}
+.contact-icons {
+    list-style-type: none;
+}
+.contact-icons li{
+    display: inline-block;
+    margin: 15px;
+    font-size: 25px;
+}
+.contact-icons a{
+    color: white;
+}
+.inputs-field{
+    margin-left: 10px;
+}
+.select-field{
+    margin-left: 10px;
+}
+.textarea-style{
+    margin-left: 10px;
+}
+.inputs-field input{
+    width: 100%;
+    height: 55px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+}
+.inputs-field input:focus{
+    outline: none;
+}
+.textarea-style textarea:focus{
+    outline: none;
+}
+.select-field{
+    width: 99%;
+    height: 55px;
+    margin-bottom: 15px;
+}
+.select-field {
+    padding-left: 10px;
+}
+.select-field option:hover{
+    background-color: #440000;
+    color: white;
+}
+.heading-contact h1{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.inputs-field [type=submit]{
+    background-color: #440000;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+}
+.inputs-field [type=submit]:hover{
+    background-color: orange;
+    transition: .5s;
+}
+
+/* .textarea-style{
+    width: 100%;
+    width: -webkit-fill-available;
+} */
+.textarea-style textarea{
+    width: 100%;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+@media (min-width:768px) and (max-width:991.98px){
+    .contact-icons{
+        padding-left: 5px;
+    }
+}
+@media screen and (max-width:575.98px) {
+    .contact-component{
+        padding: 10px;
+    }
+    .contact-icons{
+        padding-left: 4px;
+        text-align: center;
+    }
+    .contact-icons li{
+        margin: 5px;
+    }
+    
+}
