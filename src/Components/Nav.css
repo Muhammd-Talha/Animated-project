@@ -118,6 +118,9 @@
         margin-top: 50px;
         width: 80px;
     }
+    .hamburger-button{
+        padding-right: 2px;
+    }
     @keyframes talha {
         from {
             padding-left: 0px;
