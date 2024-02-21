@@ -35,6 +35,11 @@
     background-color: #440000;
     color: white;
 }
+.accordion-button:focus{
+    background-color: #440000;
+    color: white;
+    box-shadow: none;
+}
 .accordion-button:hover{
     color: orange;
 }
