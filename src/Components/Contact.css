@@ -3,7 +3,6 @@
     padding: 0%;
     box-sizing: border-box;
 }
-
 .contact-headr {
     background-image: url(./Images/contact-img.webp);
     background-position: center right;
@@ -28,6 +27,14 @@
     margin: 20px;
     padding: 30px;
 }
+.icons-overview span{
+    color: orange;
+    font-weight: 700;
+}
+.icons-overview span:hover{
+    background-color: white;
+}
+
 .icons-overview h1{
     text-align: center;
     color: wheat;
@@ -98,7 +105,7 @@
     font-size: 24px;
 }
 .inputs-field [type=submit]:hover{
-    background-color: orange;
+    opacity: .9;
     transition: .5s;
 }
 

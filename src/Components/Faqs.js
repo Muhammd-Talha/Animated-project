@@ -33,7 +33,7 @@ const Faqs = () => {
                                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
 
-                                            We offer a wide range of graphic design services including logo design,
+                                            We offer a wide range of graphic design services including logo design,  
                                             branding, web design, social media graphics, print design
                                             (brochures, business cards, flyers), packaging design, and custom
                                             illustrations.

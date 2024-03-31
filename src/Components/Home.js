@@ -43,11 +43,11 @@ const Home = () => {
                             efforts with ANIMATRONEXPO videos!
                         </p>
                         <ul className='home-unorderlist pb-5'>
-                            <li><a href=""><FaFacebook /></a> </li>
-                            <li><a href=""><FaSquareInstagram /></a> </li>
-                            <li><a href=""><FaFacebookMessenger /></a> </li>
-                            <li><a href=""><IoCallSharp /></a> </li>
-                            <li><a href=""><FaLinkedin /></a> </li>
+                            <li><a href="https://www.facebook.com/" target='_blank'><FaFacebook /></a> </li>
+                            <li><a href="https://www.instagram.com/" target='_blank' ><FaSquareInstagram /></a> </li>
+                            <li><a href="https://www.messenger.com/" target='_blank'><FaFacebookMessenger /></a> </li>
+                            <li><a href="https://www.messenger.com/" target='_blank'><IoCallSharp /></a> </li>
+                            <li><a href="https://pk.linkedin.com/" target='_blank'><FaLinkedin /></a> </li>
                         </ul>
                     </div>
                 </div>
@@ -239,7 +239,6 @@ const Home = () => {
                         </Container>
                         <div class="carousel-caption  d-md-block">
                             <h5 >BileFarrah</h5>
-                            <p >MANAGER</p>
                         </div>
                         <img src={img4} class="d-block" alt="..." />
                     </div>
@@ -253,7 +252,6 @@ const Home = () => {
                         </Container>
                         <div class="carousel-caption d-md-block">
                             <h5>Wali Shahid</h5>
-                            <p>CTO</p>
                         </div>
                         <img src={img5} class="d-block" alt="..." />
                     </div>
@@ -267,7 +265,6 @@ const Home = () => {
                         </Container>
                         <div class="carousel-caption  d-md-block">
                             <h5>Jeff Bezoz</h5>
-                            <p>Owner</p>
                         </div>
                         <img src={img6} class="d-block" alt="..." />
                     </div>
@@ -280,8 +277,7 @@ const Home = () => {
                             </div>
                         </Container>
                         <div class="carousel-caption  d-md-block">
-                            <h5>Jeff Bezoz</h5>
-                            <p>Owner</p>
+                            <h5>Monica Lopez</h5>
                         </div>
                         <img src={img8} class="d-block" alt="..." />
                     </div>
@@ -294,8 +290,7 @@ const Home = () => {
                             </div>
                         </Container>
                         <div class="carousel-caption  d-md-block">
-                            <h5>Jeff Bezoz</h5>
-                            <p>Owner</p>
+                            <h5>Donald Loo</h5>
                         </div>
                         <img src={img9} class="d-block" alt="..." />
                     </div>

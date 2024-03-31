@@ -20,11 +20,11 @@ const Footer = () => {
                     <div className='footer-icon'>
                         <h2>Contact Us</h2>
                         <ul className='footer-unorderlist'>
-                            <li> <a href=""><FaFacebook /></a> </li>
-                            <li> <a href=""><FaSquareInstagram /></a></li>
-                            <li><a href="">< FaFacebookMessenger /></a></li>
-                            <li> <a href="">< IoCallSharp /></a></li>
-                            <li><a href=""><FaLinkedin /></a></li>
+                            <li> <a href="https://www.facebook.com/" target='_blank'><FaFacebook /></a> </li>
+                            <li> <a href="https://www.instagram.com/" target='_blank'><FaSquareInstagram /></a></li>
+                            <li><a href="https://www.messenger.com/" target='_blank'>< FaFacebookMessenger /></a></li>
+                            <li> <a href="https://www.messenger.com/" target='_blank'>< IoCallSharp /></a></li>
+                            <li><a href="https://pk.linkedin.com/" target='_blank'><FaLinkedin /></a></li>
                         </ul>
                         <p>Address: Office number: 369, Shaheen Plaza, near PRC chowk, Mardan</p>
                     </div>

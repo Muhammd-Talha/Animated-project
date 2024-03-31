@@ -114,6 +114,50 @@
 .mobilescreen a{
     color: #440000;
 }
+.validation-paragraph{
+    color: red;
+    margin-top: -15px;
+    font-size: 13px;
+}
+.mobile-icons{
+    font-size: 42px;
+    color: white;
+    margin-top: 33px;
+}
+.mobile-size{
+    width: 305px;
+    background-color: #440000;
+}
+.close-button{
+    position: absolute;
+    left: -40px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 135px !important;
+}
+.mobile-list-tags{
+    list-style-type: none;
+    padding-left: 0px;
+    :hover{
+        background-color: rgb(175, 62, 62);
+        cursor: pointer;
+    }
+}
+.mobile-list-tags li{
+    padding: 10px 20px;
+    border-bottom: 1px solid #1a3f82;
+}
+.mobile-list-tags .anchortags{
+    color: white;
+
+}
+
+.offcanvas-header{
+    padding: 0% !important;
+}
+.offcanvas-body{
+    padding: 0% !important;
+}
 
 
 @media (min-width:768px) and (max-width:991.98px){
@@ -152,6 +196,9 @@
         to {
             padding-right: 00px;
         }
+    }
+    .mobile-size{
+        width: 250px;
     }
     
 }
